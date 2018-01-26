@@ -1,0 +1,19 @@
+{
+  "name": "node-gpi",
+  "version": "1.0.0",
+  "description": "integrate pagespeed in google spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "node --inspect index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.0",
+    "gpagespeed": "^4.0.5"
+  }
+}
